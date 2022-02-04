@@ -20,11 +20,17 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
   margin-top: 56px;
+  font-size: 40px;
 }
 
 .content {
   padding-left: 56px;
   padding-right: 56px;
+}
+
+.greetings {
+  margin-top: 104px;
+  font-size: 48px;
+  text-align: center;
 }
