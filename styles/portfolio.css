@@ -29,14 +29,19 @@ body {
   opacity: 0.7;
 }
 
-.btn-primary {
+.btn-primary.main {
   display: block;
   margin: 0 auto;
-  margin-top: 16px;
+  margin-top: 24px;
   margin-bottom: 48px;
+  padding: 16px;
 }
 
 .content {
   padding-left: 56px;
   padding-right: 56px;
+}
+
+.project-link {
+  padding: 16px;
 }
