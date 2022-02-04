@@ -24,13 +24,20 @@ h2 {
   font-size: 40px;
 }
 
-.content {
-  padding-left: 56px;
-  padding-right: 56px;
+.intro.text {
+  width: 90vw;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .greetings {
+  width: 50%;
   margin-top: 104px;
   font-size: 48px;
-  text-align: center;
+  text-align: left;
+}
+
+.content {
+  padding-left: 56px;
+  padding-right: 56px;
 }
