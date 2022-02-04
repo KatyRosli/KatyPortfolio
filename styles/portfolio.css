@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+h1,
+h2 {
+  text-align: left;
+}
+h1 {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 56px;
+}
+
+.content {
+  padding-left: 56px;
+  padding-right: 56px;
+}
