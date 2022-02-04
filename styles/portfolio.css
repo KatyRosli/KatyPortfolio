@@ -11,30 +11,29 @@ body {
   padding-right: 16px;
 }
 
-h1,
-h2 {
-  text-align: left;
-}
-h1 {
-  font-size: 16px;
-}
-
-h2 {
-  margin-top: 56px;
-  font-size: 40px;
-}
-
-.intro.text {
-  width: 90vw;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .greetings {
-  width: 50%;
   margin-top: 104px;
   font-size: 48px;
-  text-align: left;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.intro {
+  font-size: 96px;
+  text-align: center;
+}
+
+.location {
+  font-size: 24px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 48px;
 }
 
 .content {
