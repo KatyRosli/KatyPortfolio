@@ -43,7 +43,7 @@ body {
   color: var(--supporting-color);
 }
 
-.btn-primary.main {
+.btn-danger.main {
   display: block;
   font-family: var(--body-font);
   font-weight: 600;
@@ -84,6 +84,10 @@ p {
   transition: 0.15s ease-in-out;
 }
 
+.project-link:hover {
+  background: var(--branding-color);
+  border: none;
+}
 @media (max-width: 576px) {
   body {
     width: 100%;
