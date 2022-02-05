@@ -12,10 +12,11 @@ body {
   width: 100%;
   padding-left: 16px;
   padding-right: 16px;
+  color: var(--supporting-color);
 }
 
 .navbar {
-  background: var(--branding-color);
+  background: var(--secondary-color);
 }
 
 h2 {
