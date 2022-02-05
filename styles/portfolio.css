@@ -49,6 +49,9 @@ h3 {
   margin-top: 24px;
   margin-bottom: 48px;
   padding: 16px;
+  background: var(--branding-color);
+  border: none;
+  transition: 0.15s ease-in-out;
 }
 
 .content {
