@@ -83,3 +83,15 @@ p {
   border: none;
   transition: 0.15s ease-in-out;
 }
+
+@media (max-width: 576px) {
+  body {
+    width: 100%;
+  }
+  .content {
+    padding: 0;
+  }
+  .summary {
+    display: none;
+  }
+}
