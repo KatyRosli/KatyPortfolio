@@ -1,32 +1,45 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --branding-color: #e6461f;
+  --secondary-color: #19191a;
+  --supporting-color: #f7f7f7;
+  --header-font: Expletus Sans;
+  --body-font: Hind;
 }
 
 body {
+  background: #19191a !important;
   margin: 60px auto;
   width: 100%;
   padding-left: 16px;
   padding-right: 16px;
 }
 
-.greetings {
-  margin-top: 104px;
-  font-size: 48px;
-  text-align: center;
+.navbar {
+  background: var(--branding-color);
+}
+
+h2 {
+  margin-top: 136px;
+  font-size: 32px;
   margin-bottom: 0;
-}
-
-.intro {
-  font-size: 96px;
   text-align: center;
+  font-family: var(--header-font);
+  color: var(--supporting-color);
 }
 
-.location {
+h1 {
+  font-size: 80px;
+  text-align: center;
+  font-family: var(--header-font);
+  color: var(--supporting-color);
+}
+
+h3 {
   font-size: 24px;
+  opacity: 0.8;
   text-align: center;
-  opacity: 0.7;
+  font-family: var(--header-font);
+  color: var(--supporting-color);
 }
 
 .btn-primary.main {
