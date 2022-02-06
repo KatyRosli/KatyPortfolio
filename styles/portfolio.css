@@ -88,6 +88,7 @@ p {
   background: var(--branding-color);
   border: none;
 }
+
 @media (max-width: 576px) {
   body {
     width: 100%;
