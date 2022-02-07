@@ -125,6 +125,19 @@ a {
   color: var(--branding-color);
   font-size: 16px;
   font-family: var(--body-font);
+  display: inline;
+}
+
+a:hover {
+  color: var(--branding-color);
+}
+
+.contact-email {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.platform {
   padding-left: 24px;
   padding-right: 24px;
 }
