@@ -68,6 +68,7 @@ h2 {
   font-family: var(--header-font);
   color: var(--supporting-color);
 }
+
 p {
   margin-top: 8px;
   margin-bottom: 16px;
@@ -75,6 +76,14 @@ p {
   font-family: var(--body-font);
   color: var(--supporting-color);
 }
+
+h4 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-family: var(--header-font);
+  color: var(--supporting-color);
+}
+
 .project-link {
   padding: 16px;
   font-family: var(--body-font);
