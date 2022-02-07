@@ -132,3 +132,12 @@ p {
     margin: 0;
   }
 }
+
+.icon-2x {
+  font-size: 2em;
+}
+
+.col-lg-2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
