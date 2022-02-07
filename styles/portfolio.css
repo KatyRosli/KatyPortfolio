@@ -94,6 +94,15 @@ p {
   margin-bottom: 48px;
 }
 
+.icon-2x {
+  font-size: 2em;
+}
+
+.col-lg-2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 @media (max-width: 906px) {
   .content {
     padding-left: 24px;
@@ -131,13 +140,4 @@ p {
   .col-md-6 {
     margin: 0;
   }
-}
-
-.icon-2x {
-  font-size: 2em;
-}
-
-.col-lg-2 {
-  margin-top: 8px;
-  margin-bottom: 8px;
 }
