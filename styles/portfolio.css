@@ -82,6 +82,13 @@ p {
   color: var(--supporting-color);
 }
 
+.title {
+  margin-bottom: 8px;
+  font-size: 64px;
+  font-family: var(--header-font);
+  color: var(--supporting-color);
+}
+
 h4 {
   margin-bottom: 8px;
   font-size: 24px;
@@ -158,6 +165,8 @@ a:hover {
 .contact-email {
   text-align: center;
   margin-top: 80px;
+  font-size: 64px;
+  font-family: var(--header-font);
 }
 
 .platform {
