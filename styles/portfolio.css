@@ -145,6 +145,7 @@ h4 {
 ul {
   list-style: none;
   text-align: center;
+  padding: 0;
 }
 
 li {
@@ -172,6 +173,31 @@ a:hover {
 .platform {
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.email-address {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.social-media {
+  text-align: center;
+  font-size: 16px;
+  font-family: var(--body-font);
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.social-links {
+  padding-left: 24px;
+  padding-right: 24px;
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 16px;
+  font-family: var(--body-font);
 }
 
 @media (max-width: 906px) {
@@ -223,7 +249,16 @@ a:hover {
     margin-top: 24px;
     margin-bottom: 64px;
   }
+
   .col-md-6 {
     margin: 0;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 16px;
+    margin-top: 16px;
   }
 }
