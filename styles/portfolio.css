@@ -1,5 +1,6 @@
 :root {
   --branding-color: #e6461f;
+  --hover-branding-color: #e63104;
   --secondary-color: #19191a;
   --supporting-color: #f7f7f7;
   --header-font: Expletus Sans;
@@ -94,8 +95,26 @@ h4 {
 }
 
 .project-link:hover {
-  background: var(--branding-color);
+  background: var(--hover-branding-color);
   border: none;
+}
+
+.contact-link {
+  padding: 16px;
+  font-family: var(--body-font);
+  font-weight: 600;
+  border-color: var(--branding-color);
+  color: var(--branding-color);
+  transition: 0.15s ease-in-out;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.contact-link:hover {
+  background: var(--hover-branding-color);
+  border-color: var(--hover-branding-color);
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .col-md-6 {
@@ -172,8 +191,23 @@ a:hover {
     width: 100%;
     margin: 0;
   }
+
+  .contact-link {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact-link:hover {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   img {
-    margin-top: 16px;
+    margin-top: 24px;
     margin-bottom: 64px;
   }
   .col-md-6 {
