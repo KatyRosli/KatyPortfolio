@@ -20,6 +20,27 @@ body {
   background: var(--secondary-color);
 }
 
+.navbar-brand {
+  font-family: var(--header-font);
+}
+
+.ml-auto {
+  margin-left: auto !important;
+  padding-left: 24px;
+}
+
+li.nav-item {
+  padding-left: 24px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: var(--branding-color);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--branding-color);
+}
+
 .greetings {
   margin-top: 152px;
   font-size: 32px;
