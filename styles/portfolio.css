@@ -245,10 +245,15 @@ a:hover {
   .summary {
     display: none;
   }
+  .languages {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
   .mb-3 {
     text-align: center;
     font-size: 32px;
-    margin: 0;
+    margin-bottom: 0 !important;
   }
   .project-link {
     display: block;
