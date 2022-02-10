@@ -72,10 +72,13 @@ li.nav-item {
   margin: 0 auto;
   margin-top: 24px;
   margin-bottom: 80px;
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: var(--branding-color);
-  color: var(--secondary-color);
   border: none;
+  border-radius: 40px;
   transition: 0.15s ease-in-out;
 }
 
@@ -119,12 +122,15 @@ h4 {
 }
 
 .project-link {
-  padding: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-family: var(--body-font);
   font-weight: 600;
   background: var(--branding-color);
-  color: var(--secondary-color);
   border: none;
+  border-radius: 40px;
   transition: 0.15s ease-in-out;
 }
 
@@ -134,11 +140,14 @@ h4 {
 }
 
 .contact-link {
-  padding: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-family: var(--body-font);
   font-weight: 600;
   border-color: var(--branding-color);
-  color: var(--branding-color);
+  border-radius: 40px;
   transition: 0.15s ease-in-out;
   margin-right: 40px;
   margin-left: 40px;
