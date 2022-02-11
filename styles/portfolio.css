@@ -67,9 +67,9 @@ li.nav-item {
   color: var(--supporting-color);
 }
 
-.fab {
-  padding-left: 4px;
-  padding-right: 4px;
+.col-lg-2 {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .btn-danger.main {
@@ -156,15 +156,12 @@ h4 {
   border-color: var(--branding-color);
   border-radius: 40px;
   transition: 0.15s ease-in-out;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-left: 32px;
 }
 
 .contact-link:hover {
   background: var(--hover-branding-color);
   border-color: var(--hover-branding-color);
-  margin-right: 40px;
-  margin-left: 40px;
 }
 
 .github-link {
@@ -249,7 +246,7 @@ a:hover {
 }
 
 hr {
-  margin-top: 56px;
+  margin-top: 64px;
   margin-bottom: 4px;
   height: 1px;
   background-color: var(--supporting-color);
@@ -300,22 +297,27 @@ hr {
   body {
     width: 100%;
   }
+
   .content {
     padding: 0;
   }
+
   .summary {
     display: none;
   }
+
   .languages {
     text-align: center;
     margin-top: 0;
     margin-bottom: 8px;
   }
+
   .mb-3 {
     text-align: center;
     font-size: 32px;
     margin-bottom: 8px;
   }
+
   .project-link {
     display: block;
     width: 100%;
@@ -326,14 +328,10 @@ hr {
     display: block;
     width: 100%;
     margin-top: 40px;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .contact-link:hover {
     margin-top: 40px;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   img {
