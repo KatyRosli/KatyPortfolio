@@ -249,6 +249,7 @@ a:hover {
 }
 
 hr {
+  margin-top: 56px;
   margin-bottom: 4px;
   height: 1px;
   background-color: var(--supporting-color);
@@ -257,11 +258,12 @@ hr {
 
 .main-footer nav {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .main-footer nav a {
-  margin-right: 64px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 @media (max-width: 906px) {
@@ -271,6 +273,26 @@ hr {
   }
   h2 {
     margin-top: 0;
+  }
+
+  .project-link {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-link {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact-link:hover {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
