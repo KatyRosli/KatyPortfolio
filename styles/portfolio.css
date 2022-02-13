@@ -245,6 +245,13 @@ a:hover {
   margin-bottom: 80px;
 }
 
+.footer {
+  text-align: center;
+  font-size: 14px;
+  font-style: var(--body-font);
+  margin: 24px;
+}
+
 hr {
   margin-top: 64px;
   margin-bottom: 4px;
